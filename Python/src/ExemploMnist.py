@@ -1,4 +1,5 @@
 # Importar bibliotecas necessárias
+from doctest import testfile
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
@@ -25,6 +26,11 @@ modelo.fit(X_treino, y_treino)
 # Fazer previsões no conjunto de teste
 y_pred = modelo.predict(X_teste)
 
+# escolher modelo
+# pegar dados
+# organizar dados
+# escolher modelo de test
+# exibir dados
 
 # Avaliar modelo
 print('Acurácia:', accuracy_score(y_teste, y_pred))
