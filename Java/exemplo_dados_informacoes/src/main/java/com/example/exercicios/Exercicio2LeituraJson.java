@@ -40,7 +40,7 @@ public class Exercicio2LeituraJson {
                 System.out.println("Dados dos Usuários:");
 
                 for (int i = 0; i < usuarios.length(); i++){
-                    JSONObject usuario = usuarios.add(new Usuario(
+                    JSONObject usuario = usuarios.addo(new Usuario(
                         usuario.getInt("id"),
                         usuario.getString("nome"),
                         usuario.getInt("idade"),
